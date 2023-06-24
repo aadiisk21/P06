@@ -46,9 +46,10 @@ body {
     text-rendering: optimizeSpeed;
     line-height: 1.5;
     overflow: hidden;
-    border: 1px solid rgb(169, 236, 169);
     background-color: hsl(217, 54%, 11%);
     overflow: hidden;
+    font-family: 'Outfit', sans-serif;
+    /* border: 1px solid rgb(169, 236, 169); */
 }
 
 /* A elements that don't have a class get default styles */
@@ -86,3 +87,53 @@ select {
         scroll-behavior: auto !important;
     }
 }
+
+/* main */
+
+#main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 40rem;
+    width: 23.5rem;
+    position: static;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    color: white;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+    padding: 1.6rem;
+    border-radius: 34px;
+}
+
+.eth-info {
+    width: inherit;
+    height: 16.5rem;
+    padding: 0 1.7rem;
+}
+
+.card h1 {
+    display: inline;
+    font-size: 23px;
+}
+
+.card p {
+    width: fit-content;
+    font-size: larger;
+    margin-top: .7rem;
+    height: auto;
+    position: inherit;
+    color: hsl(216, 28.6%, 55.5%)
+}
+
