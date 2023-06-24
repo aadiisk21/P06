@@ -128,7 +128,7 @@ select {
     font-size: 23px;
 }
 
-.card p {
+.description {
     width: fit-content;
     font-size: larger;
     margin-top: .7rem;
@@ -191,4 +191,51 @@ select {
     margin-left: 14px;
     letter-spacing: .5px;
     color: hsl(216, 28.6%, 55.5%)
+}
+
+/* img.profile-img {
+    padding: 0;
+    width: 2.1rem;
+    border: .1rem solid wheat;
+    display: inline;
+    margin-top: 1.5rem;
+}
+
+p.eth-name {
+    display: inline;
+} */
+
+.footer {
+    width: initial;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+img.profile-img {
+    padding: 0;
+    width: 11rem;
+    width: 11rem;
+    margin-top: 1.2rem;
+    border: .1rem solid white;
+}
+
+p.eth-name {
+    height: fit-content;
+    margin-top: 1.45rem;
+    margin-left: 1rem;
+    letter-spacing: .8px;
+    color: hsl(216, 28.6%, 55.5%)
+}
+
+.eth-name span {
+    color: #fff;
+}
+
+.eth-name span:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.eth-info h1.heading:hover {
+    color: hsl(178, 100%, 50%);
 }
