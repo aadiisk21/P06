@@ -292,3 +292,5 @@ p.eth-name {
     color: hsl(178, 100%, 50%);
     transition: all 0.5s;
 }
+
+/* media query for mobile width */
