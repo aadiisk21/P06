@@ -294,3 +294,38 @@ p.eth-name {
 }
 
 /* media query for mobile width */
+@media screen and (max-width:450px) {
+    * {
+        width: 100%;
+        height: auto;
+    }
+
+    body {
+        width: 100vw;
+        height: auto;
+    }
+
+    .main {
+        width: 375px;
+        height: 100vh;
+    }
+
+    img.eth-icon {
+        width: 1rem;
+        top: -0.2rem;
+    }
+
+    .eth-data-2 span {
+        margin-left: 5px;
+    }
+
+    img.time-icon {
+        width: 3rem;
+        margin-top: 1.3rem;
+        right: -1.5rem;
+    }
+
+    .footer img {
+        width: 2.5rem;
+    }
+}
