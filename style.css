@@ -305,6 +305,10 @@ p.eth-name {
         height: auto;
     }
 
+    .card {
+        margin-top: -5rem;
+    }
+
     .main {
         width: 375px;
         height: 100vh;
